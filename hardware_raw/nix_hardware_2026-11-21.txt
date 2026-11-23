@@ -1,0 +1,800 @@
+
+===== DMI =====
+sys_vendor: HP
+product_name: HP EliteDesk 705 G5 SFF
+product_sku: 6JH69AV
+product_family: 103C_53307F HP EliteDesk
+board_vendor: HP
+board_name: 8617
+board_version: KBC Version 08.09.20
+bios_vendor: HP
+bios_version: R06 Ver. 02.20.00
+bios_date: 04/11/2024
+bios_release: 20.0
+ec_firmware_release: 8.9
+chassis_type: 3
+
+===== LSCPU =====
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        43 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD Ryzen 5 PRO 3400G with Radeon Vega Graphics
+CPU family:                           23
+Model:                                24
+Thread(s) per core:                   2
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             1
+Frequency boost:                      enabled
+CPU(s) scaling MHz:                   68%
+CPU max MHz:                          3700.0000
+CPU min MHz:                          1400.0000
+BogoMIPS:                             7385.93
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es ibpb_exit_to_user
+Virtualization:                       AMD-V
+L1d cache:                            128 KiB (4 instances)
+L1i cache:                            256 KiB (4 instances)
+L2 cache:                             2 MiB (4 instances)
+L3 cache:                             4 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-7
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; untrained return thunk; SMT vulnerable
+Vulnerability Spec rstack overflow:   Mitigation; Safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+Vulnerability Vmscape:                Mitigation; IBPB before exit to userspace
+
+===== CPUFLAGS =====
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es ibpb_exit_to_user
+bugs		: sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso div0 ibpb_no_ret vmscape
+address sizes	: 43 bits physical, 48 bits virtual
+microcode	: 0x8108109
+
+===== TOPOLOGY =====
+cpu0 core=0 apicid= 0 siblings=0-1
+cpu1 core=0 apicid= 1 siblings=0-1
+cpu2 core=1 apicid= 2 siblings=2-3
+cpu3 core=1 apicid= 3 siblings=2-3
+cpu4 core=2 apicid= 4 siblings=4-5
+cpu5 core=2 apicid= 5 siblings=4-5
+cpu6 core=3 apicid= 6 siblings=6-7
+cpu7 core=3 apicid= 7 siblings=6-7
+
+===== CACHE =====
+L1 Data 32K line=64 shared=0-1
+L1 Instruction 64K line=64 shared=0-1
+L2 Unified 512K line=64 shared=0-1
+L3 Unified 4096K line=64 shared=0-7
+
+===== MEMINFO =====
+MemTotal:       14202128 kB
+MemFree:         1576624 kB
+MemAvailable:   13344732 kB
+Buffers:          671580 kB
+Cached:         10375248 kB
+RANGE                                  SIZE  STATE REMOVABLE  BLOCK
+0x0000000000000000-0x000000005fffffff  1.5G online       yes   0-11
+0x0000000100000000-0x000000041fffffff 12.5G online       yes 32-131
+
+Memory block size:       128M
+Total online memory:      14G
+Total offline memory:      0B
+
+===== LSPCI_TREE =====
+-[0000:00]-+-00.0
+           +-00.2
+           +-01.0
+           +-01.2-[01-09]--+-00.0
+           |               +-00.1
+           |               \-00.2-[02-09]--+-00.0-[03]--
+           |                               +-01.0-[04]--
+           |                               +-02.0-[05]--+-00.0
+           |                               |            +-00.1
+           |                               |            +-00.2
+           |                               |            +-00.3
+           |                               |            \-00.4
+           |                               +-03.0-[06]--
+           |                               +-04.0-[07]--
+           |                               +-08.0-[08]--
+           |                               \-09.0-[09]--
+           +-01.6-[0a]----00.0
+           +-08.0
+           +-08.1-[0b]--+-00.0
+           |            +-00.1
+           |            +-00.2
+           |            +-00.3
+           |            +-00.4
+           |            \-00.6
+           +-14.0
+           +-14.3
+           +-18.0
+           +-18.1
+           +-18.2
+           +-18.3
+           +-18.4
+           +-18.5
+           +-18.6
+           \-18.7
+
+===== LSPCI_ALL =====
+00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Root Complex [1022:15d0]
+00:00.2 IOMMU [0806]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 IOMMU [1022:15d1]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 IOMMU [1022:15d1]
+00:01.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1022:1452]
+00:01.2 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 PCIe GPP Bridge [6:0] [1022:15d3]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 PCIe GPP Bridge [6:0] [1022:1453]
+	Kernel driver in use: pcieport
+00:01.6 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 PCIe GPP Bridge [6:0] [1022:15d3]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 PCIe GPP Bridge [6:0] [1022:1453]
+	Kernel driver in use: pcieport
+00:08.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1022:1452]
+00:08.1 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus A [1022:15db]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Internal PCIe GPP Bridge 0 to Bus A [1022:0000]
+	Kernel driver in use: pcieport
+00:14.0 SMBus [0c05]: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller [1022:790b] (rev 61)
+	Subsystem: Hewlett-Packard Company FCH SMBus Controller [103c:8617]
+	Kernel modules: i2c_piix4, sp5100_tco
+00:14.3 ISA bridge [0601]: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge [1022:790e] (rev 51)
+	Subsystem: Hewlett-Packard Company FCH LPC Bridge [103c:8617]
+00:18.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 0 [1022:15e8]
+00:18.1 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 1 [1022:15e9]
+00:18.2 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 2 [1022:15ea]
+00:18.3 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 3 [1022:15eb]
+	Kernel driver in use: k10temp
+	Kernel modules: k10temp
+00:18.4 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 4 [1022:15ec]
+00:18.5 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 5 [1022:15ed]
+00:18.6 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 6 [1022:15ee]
+00:18.7 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Raven/Raven2 Device 24: Function 7 [1022:15ef]
+01:00.0 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Device [1022:43d2] (rev 01)
+	Subsystem: Hewlett-Packard Company Device [103c:8617]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+01:00.1 SATA controller [0106]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset SATA Controller [1022:43c8] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset SATA Controller [103c:8617]
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+01:00.2 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Bridge [1022:43c6] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Bridge [103c:8617]
+	Kernel driver in use: pcieport
+02:00.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Port [103c:8617]
+	Kernel driver in use: pcieport
+02:01.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Port [103c:8617]
+	Kernel driver in use: pcieport
+02:02.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Port [103c:8617]
+	Kernel driver in use: pcieport
+02:03.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Port [103c:8617]
+	Kernel driver in use: pcieport
+02:04.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: Hewlett-Packard Company 400 Series Chipset PCIe Port [103c:8617]
+	Kernel driver in use: pcieport
+02:08.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: ASMedia Technology Inc. 400 Series Chipset PCIe Port [1b21:3306]
+	Kernel driver in use: pcieport
+02:09.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] 400 Series Chipset PCIe Port [1022:43c7] (rev 01)
+	Subsystem: ASMedia Technology Inc. 400 Series Chipset PCIe Port [1b21:3306]
+	Kernel driver in use: pcieport
+05:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [103c:8617]
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+05:00.1 Serial controller [0700]: Realtek Semiconductor Co., Ltd. RTL8111xP UART #1 [10ec:816a] (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL8111xP UART [103c:8617]
+	Kernel driver in use: serial
+05:00.2 Serial controller [0700]: Realtek Semiconductor Co., Ltd. RTL8111xP UART #2 [10ec:816b] (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL8111xP UART [103c:8617]
+	Kernel driver in use: serial
+05:00.3 IPMI Interface [0c07]: Realtek Semiconductor Co., Ltd. RTL8111xP IPMI interface [10ec:816c] (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL8111xP IPMI interface [103c:8617]
+	Kernel modules: ipmi_si
+05:00.4 USB controller [0c03]: Realtek Semiconductor Co., Ltd. RTL811x EHCI host controller [10ec:816d] (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL811x EHCI host controller [103c:8617]
+	Kernel driver in use: ehci-pci
+0a:00.0 Non-Volatile memory controller [0108]: Toshiba Corporation XG6 NVMe SSD Controller [1179:011a]
+	DeviceName: Onboard IGD
+	Subsystem: Toshiba Corporation XG6 NVMe SSD Controller [1179:0001]
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+0b:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] [1002:15d8] (rev d8)
+	Subsystem: Hewlett-Packard Company Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] [103c:8617]
+	Kernel driver in use: amdgpu
+	Kernel modules: amdgpu
+0b:00.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Raven/Raven2/Fenghuang HDMI/DP Audio Controller [1002:15de]
+	Subsystem: Hewlett-Packard Company Raven/Raven2/Fenghuang HDMI/DP Audio Controller [103c:8617]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+0b:00.2 Encryption controller [1080]: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 10h-1fh) Platform Security Processor [1022:15df]
+	Subsystem: Hewlett-Packard Company Family 17h (Models 10h-1fh) Platform Security Processor [103c:8617]
+	Kernel driver in use: ccp
+	Kernel modules: ccp
+0b:00.3 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Raven USB 3.1 [1022:15e0]
+	Subsystem: Hewlett-Packard Company Raven USB 3.1 [103c:8617]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+0b:00.4 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] Raven USB 3.1 [1022:15e1]
+	Subsystem: Hewlett-Packard Company Raven USB 3.1 [103c:8617]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+0b:00.6 Audio device [0403]: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller [1022:15e3]
+	Subsystem: Hewlett-Packard Company Family 17h/19h HD Audio Controller [103c:8617]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+===== PCI_RESOURCES =====
+0000:00:00.0 class=0x060000 irq=0
+0000:00:00.2 class=0x080600 irq=26
+0000:00:01.0 class=0x060000 irq=0
+0000:00:01.2 class=0x060400 irq=27
+   BAR13 0x0000000000003000-0x0000000000003fff flags=0x0000000000000101
+   BAR14 0x00000000f0700000-0x00000000f08fffff flags=0x0000000000000200
+0000:00:01.6 class=0x060400 irq=28
+   BAR14 0x00000000f0600000-0x00000000f06fffff flags=0x0000000000000200
+0000:00:08.0 class=0x060000 irq=0
+0000:00:08.1 class=0x060400 irq=29
+   BAR13 0x0000000000002000-0x0000000000002fff flags=0x0000000000000101
+   BAR14 0x00000000f0200000-0x00000000f05fffff flags=0x0000000000000200
+   BAR15 0x00000000e0000000-0x00000000f01fffff flags=0x0000000000102201
+0000:00:14.0 class=0x0c0500 irq=0
+0000:00:14.3 class=0x060100 irq=0
+0000:00:18.0 class=0x060000 irq=0
+0000:00:18.1 class=0x060000 irq=0
+0000:00:18.2 class=0x060000 irq=0
+0000:00:18.3 class=0x060000 irq=0
+0000:00:18.4 class=0x060000 irq=0
+0000:00:18.5 class=0x060000 irq=0
+0000:00:18.6 class=0x060000 irq=0
+0000:00:18.7 class=0x060000 irq=0
+0000:01:00.0 class=0x0c0330 irq=30
+   BAR0 0x00000000f0820000-0x00000000f0827fff flags=0x0000000000140204
+0000:01:00.1 class=0x010601 irq=42
+   BAR5 0x00000000f0800000-0x00000000f081ffff flags=0x0000000000040200
+   BAR6 0x00000000f0880000-0x00000000f08fffff flags=0x0000000000046200
+0000:01:00.2 class=0x060400 irq=24
+   BAR13 0x0000000000003000-0x0000000000003fff flags=0x0000000000000101
+   BAR14 0x00000000f0700000-0x00000000f07fffff flags=0x0000000000000200
+0000:02:00.0 class=0x060400 irq=31
+0000:02:01.0 class=0x060400 irq=33
+0000:02:02.0 class=0x060400 irq=34
+   BAR13 0x0000000000003000-0x0000000000003fff flags=0x0000000000000101
+   BAR14 0x00000000f0700000-0x00000000f07fffff flags=0x0000000000000200
+0000:02:03.0 class=0x060400 irq=36
+0000:02:04.0 class=0x060400 irq=37
+0000:02:08.0 class=0x060400 irq=38
+0000:02:09.0 class=0x060400 irq=39
+0000:05:00.0 class=0x020000 irq=24
+   BAR0 0x0000000000003300-0x00000000000033ff flags=0x0000000000040101
+   BAR2 0x00000000f0714000-0x00000000f0714fff flags=0x0000000000140204
+   BAR4 0x00000000f0700000-0x00000000f0703fff flags=0x0000000000140204
+0000:05:00.1 class=0x070002 irq=35
+   BAR0 0x0000000000003200-0x00000000000032ff flags=0x0000000000040101
+   BAR2 0x00000000f0715000-0x00000000f0715fff flags=0x0000000000140204
+   BAR4 0x00000000f0704000-0x00000000f0707fff flags=0x0000000000140204
+0000:05:00.2 class=0x070002 irq=30
+   BAR0 0x0000000000003100-0x00000000000031ff flags=0x0000000000040101
+   BAR2 0x00000000f0716000-0x00000000f0716fff flags=0x0000000000140204
+   BAR4 0x00000000f0708000-0x00000000f070bfff flags=0x0000000000140204
+0000:05:00.3 class=0x0c0701 irq=255
+   BAR0 0x0000000000003000-0x00000000000030ff flags=0x0000000000040101
+   BAR2 0x00000000f0717000-0x00000000f0717fff flags=0x0000000000140204
+   BAR4 0x00000000f070c000-0x00000000f070ffff flags=0x0000000000140204
+0000:05:00.4 class=0x0c0320 irq=40
+   BAR0 0x00000000f0718000-0x00000000f0718fff flags=0x0000000000040200
+   BAR2 0x00000000f0710000-0x00000000f0713fff flags=0x0000000000140204
+0000:0a:00.0 class=0x010802 irq=69
+   BAR0 0x00000000f0600000-0x00000000f0603fff flags=0x0000000000140204
+0000:0b:00.0 class=0x030000 irq=60
+   BAR0 0x00000000e0000000-0x00000000efffffff flags=0x000000000014220c
+   BAR2 0x00000000f0000000-0x00000000f01fffff flags=0x000000000014220c
+   BAR4 0x0000000000002000-0x00000000000020ff flags=0x0000000000040101
+   BAR5 0x00000000f0500000-0x00000000f057ffff flags=0x0000000000040200
+0000:0b:00.1 class=0x040300 irq=107
+   BAR0 0x00000000f0588000-0x00000000f058bfff flags=0x0000000000040200
+0000:0b:00.2 class=0x108000 irq=103
+   BAR2 0x00000000f0400000-0x00000000f04fffff flags=0x0000000000040200
+   BAR5 0x00000000f058c000-0x00000000f058dfff flags=0x0000000000040200
+0000:0b:00.3 class=0x0c0330 irq=51
+   BAR0 0x00000000f0200000-0x00000000f02fffff flags=0x0000000000140204
+0000:0b:00.4 class=0x0c0330 irq=60
+   BAR0 0x00000000f0300000-0x00000000f03fffff flags=0x0000000000140204
+0000:0b:00.6 class=0x040300 irq=108
+   BAR0 0x00000000f0580000-0x00000000f0587fff flags=0x0000000000040200
+
+===== LSPCI_VV_KEY =====
+05:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller (rev 0e)
+	Subsystem: Hewlett-Packard Company RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 24
+	IOMMU group: 0
+	Region 0: I/O ports at 3300 [size=256]
+	Region 2: Memory at f0714000 (64-bit, non-prefetchable) [size=4K]
+	Region 4: Memory at f0700000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+
+0a:00.0 Non-Volatile memory controller: Toshiba Corporation XG6 NVMe SSD Controller (prog-if 02 [NVM Express])
+	DeviceName: Onboard IGD
+	Subsystem: Toshiba Corporation XG6 NVMe SSD Controller
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 69
+	IOMMU group: 0
+	Region 0: Memory at f0600000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+
+0b:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series] (rev d8) (prog-if 00 [VGA controller])
+	Subsystem: Hewlett-Packard Company Picasso/Raven 2 [Radeon Vega Series / Radeon Vega Mobile Series]
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 60
+	IOMMU group: 1
+	Region 0: Memory at e0000000 (64-bit, prefetchable) [size=256M]
+	Region 2: Memory at f0000000 (64-bit, prefetchable) [size=2M]
+	Region 4: I/O ports at 2000 [size=256]
+	Region 5: Memory at f0500000 (32-bit, non-prefetchable) [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: amdgpu
+	Kernel modules: amdgpu
+
+
+===== ACPI_TABLES =====
+ 
+536 APIC
+110 ASF!
+41 CDIT
+2064 CRAT
+0 data
+59675 DSDT
+0 dynamic
+268 FACP
+64 FACS
+68 FPDT
+56 HPET
+208 IVRS
+60 MCFG
+85 MSDM
+40 OEML
+298 SSDT1
+4508 SSDT10
+21529 SSDT2
+991 SSDT3
+979 SSDT4
+43 SSDT5
+50 SSDT6
+105 SSDT7
+7875 SSDT8
+191 SSDT9
+52 TPM2
+66 UEFI
+54404 VFCT
+40 WSMT
+
+===== INTERRUPTS =====
+             
+   0:       O-APIC    2-edge      timer
+   1:       O-APIC    1-edge      i8042
+   7:       O-APIC    7-fasteoi   pinctrl_amd
+   8:       O-APIC    8-edge      rtc0
+   9:       O-APIC    9-fasteoi   acpi
+  12:       O-APIC   12-edge      i8042
+  26:       MSI-0000:00:00.2    0-edge      AMD-Vi
+  27:       CI-MSI-0000:00:01.2    0-edge      PCIe PME
+  28:       CI-MSI-0000:00:01.6    0-edge      PCIe PME
+  29:       CI-MSI-0000:00:08.1    0-edge      PCIe PME
+  40:       CI-MSI-0000:05:00.4    0-edge      ehci_hcd:usb1
+  41:       CI-MSIX-0000:05:00.0    0-edge      enp5s0f0
+  42:       CI-MSI-0000:01:00.1    0-edge      ahci[0000:01:00.1]
+  43:       CI-MSIX-0000:01:00.0    0-edge      xhci_hcd
+  52:       CI-MSIX-0000:0b:00.3    0-edge      xhci_hcd
+  61:       CI-MSIX-0000:0b:00.4    0-edge      xhci_hcd
+  70:       CI-MSIX-0000:0a:00.0    0-edge      nvme0q0
+  71:    217CI-MSIX-0000:0a:00.0    1-edge      nvme0q1
+  72:       CI-MSIX-0000:0a:00.0    2-edge      nvme0q2
+  73:       CI-MSIX-0000:0a:00.0    3-edge      nvme0q3
+  74:       CI-MSIX-0000:0a:00.0    4-edge      nvme0q4
+  75:       CI-MSIX-0000:0a:00.0    5-edge      nvme0q5
+  76:       CI-MSIX-0000:0a:00.0    6-edge      nvme0q6
+  77:       CI-MSIX-0000:0a:00.0    7-edge      nvme0q7
+  78:       CI-MSIX-0000:0a:00.0    8-edge      nvme0q8
+  79:       CI-MSIX-0000:0a:00.0    9-edge      nvme0q9
+  80:       CI-MSIX-0000:0a:00.0   10-edge      nvme0q10
+  81:       CI-MSIX-0000:0a:00.0   11-edge      nvme0q11
+  82:       CI-MSIX-0000:0a:00.0   12-edge      nvme0q12
+  83:       CI-MSIX-0000:0a:00.0   13-edge      nvme0q13
+  84:       CI-MSIX-0000:0a:00.0   14-edge      nvme0q14
+  85:       CI-MSIX-0000:0a:00.0   15-edge      nvme0q15
+  86:       CI-MSIX-0000:0a:00.0   16-edge      nvme0q16
+  87:       CI-MSIX-0000:0a:00.0   17-edge      nvme0q17
+  88:       CI-MSIX-0000:0a:00.0   18-edge      nvme0q18
+  89:       CI-MSIX-0000:0a:00.0   19-edge      nvme0q19
+  90:       CI-MSIX-0000:0a:00.0   20-edge      nvme0q20
+  91:       CI-MSIX-0000:0a:00.0   21-edge      nvme0q21
+  92:       CI-MSIX-0000:0a:00.0   22-edge      nvme0q22
+  93:       CI-MSIX-0000:0a:00.0   23-edge      nvme0q23
+  94:       CI-MSIX-0000:0a:00.0   24-edge      nvme0q24
+  95:       CI-MSIX-0000:0a:00.0   25-edge      nvme0q25
+  96:       CI-MSIX-0000:0a:00.0   26-edge      nvme0q26
+  97:       CI-MSIX-0000:0a:00.0   27-edge      nvme0q27
+  98:       CI-MSIX-0000:0a:00.0   28-edge      nvme0q28
+  99:       CI-MSIX-0000:0a:00.0   29-edge      nvme0q29
+ 100:       CI-MSIX-0000:0a:00.0   30-edge      nvme0q30
+ 101:       CI-MSIX-0000:0a:00.0   31-edge      nvme0q31
+ 102:       CI-MSIX-0000:0a:00.0   32-edge      nvme0q32
+ 104:       CI-MSIX-0000:0b:00.2    0-edge      psp-1
+ 105:       CI-MSIX-0000:0b:00.2    1-edge      ccp-1
+ 107:       CI-MSI-0000:0b:00.1    0-edge      snd_hda_intel:card0
+ 108:       CI-MSI-0000:0b:00.6    0-edge      snd_hda_intel:card1
+ 109:       CI-MSIX-0000:0b:00.0    0-edge      amdgpu
+ NMI:       -maskable interrupts
+ LOC:  19735al timer interrupts
+ SPU:       rious interrupts
+ PMI:       formance monitoring interrupts
+ IWI:        work interrupts
+ RTR:       C ICR read retries
+ RES:    581cheduling interrupts
+ CAL:  15383ction call interrupts
+ TLB:   1050 shootdowns
+ TRM:       rmal event interrupts
+ THR:       eshold APIC interrupts
+ DFR:       erred Error APIC interrupts
+ MCE:       hine check exceptions
+ MCP:      1hine check polls
+ ERR:       
+ MIS:       
+ PIN:       ted-interrupt notification event
+ NPI:       ted posted-interrupt event
+ PIW:       ted-interrupt wakeup event
+
+===== IOPORTS =====
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : dma1
+  0000-0000 : pic1
+  0000-0000 : timer0
+  0000-0000 : timer1
+  0000-0000 : keyboard
+  0000-0000 : PNP0800:00
+  0000-0000 : PNP0C09:00
+    0000-0000 : EC data
+  0000-0000 : keyboard
+  0000-0000 : PNP0C09:00
+    0000-0000 : EC cmd
+  0000-0000 : rtc0
+  0000-0000 : dma page reg
+  0000-0000 : pic2
+  0000-0000 : dma2
+  0000-0000 : fpu
+    0000-0000 : PNP0C04:00
+  0000-0000 : pnp 00:06
+  0000-0000 : pnp 00:02
+    0000-0000 : ACPI PM1a_EVT_BLK
+    0000-0000 : ACPI PM1a_CNT_BLK
+    0000-0000 : ACPI PM_TMR
+    0000-0000 : ACPI GPE0_BLK
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : ACPI PM2_CNT_BLK
+  0000-0000 : ACPI CPU throttle
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+  0000-0000 : pnp 00:02
+0000-0000 : PCI conf1
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : PCI Bus 0000:0b
+    0000-0000 : 0000:0b:00.0
+  0000-0000 : PCI Bus 0000:01
+    0000-0000 : PCI Bus 0000:02
+      0000-0000 : PCI Bus 0000:05
+        0000-0000 : 0000:05:00.3
+        0000-0000 : 0000:05:00.2
+          0000-0000 : serial
+        0000-0000 : 0000:05:00.1
+          0000-0000 : serial
+        0000-0000 : 0000:05:00.0
+
+===== IOMEM =====
+00000000-00000000 : Reserved
+00000000-00000000 : System RAM
+00000000-00000000 : Reserved
+00000000-00000000 : System RAM
+00000000-00000000 : PCI Bus 0000:00
+00000000-00000000 : PCI Bus 0000:00
+00000000-00000000 : PCI Bus 0000:00
+00000000-00000000 : System ROM
+00000000-00000000 : System RAM
+00000000-00000000 : ACPI Non-volatile Storage
+00000000-00000000 : System RAM
+00000000-00000000 : Reserved
+00000000-00000000 : System RAM
+00000000-00000000 : System RAM
+00000000-00000000 : System RAM
+00000000-00000000 : Reserved
+00000000-00000000 : ACPI Non-volatile Storage
+00000000-00000000 : Reserved
+00000000-00000000 : ACPI Non-volatile Storage
+  00000000-00000000 : USBC000:00
+00000000-00000000 : ACPI Tables
+00000000-00000000 : System RAM
+00000000-00000000 : PCI Bus 0000:00
+  00000000-00000000 : PCI Bus 0000:0b
+    00000000-00000000 : 0000:0b:00.0
+    00000000-00000000 : 0000:0b:00.0
+  00000000-00000000 : PCI Bus 0000:0b
+    00000000-00000000 : 0000:0b:00.3
+      00000000-00000000 : xhci-hcd
+    00000000-00000000 : 0000:0b:00.4
+      00000000-00000000 : xhci-hcd
+    00000000-00000000 : 0000:0b:00.2
+      00000000-00000000 : ccp
+    00000000-00000000 : 0000:0b:00.0
+    00000000-00000000 : 0000:0b:00.6
+      00000000-00000000 : ICH HD audio
+    00000000-00000000 : 0000:0b:00.1
+      00000000-00000000 : ICH HD audio
+    00000000-00000000 : 0000:0b:00.2
+      00000000-00000000 : ccp
+  00000000-00000000 : PCI Bus 0000:0a
+    00000000-00000000 : 0000:0a:00.0
+      00000000-00000000 : nvme
+  00000000-00000000 : PCI Bus 0000:01
+    00000000-00000000 : PCI Bus 0000:02
+      00000000-00000000 : PCI Bus 0000:05
+        00000000-00000000 : 0000:05:00.0
+        00000000-00000000 : 0000:05:00.1
+        00000000-00000000 : 0000:05:00.2
+        00000000-00000000 : 0000:05:00.3
+        00000000-00000000 : 0000:05:00.4
+        00000000-00000000 : 0000:05:00.0
+          00000000-00000000 : r8169
+        00000000-00000000 : 0000:05:00.1
+        00000000-00000000 : 0000:05:00.2
+        00000000-00000000 : 0000:05:00.3
+        00000000-00000000 : 0000:05:00.4
+          00000000-00000000 : ehci_hcd
+    00000000-00000000 : 0000:01:00.1
+      00000000-00000000 : ahci
+    00000000-00000000 : 0000:01:00.0
+      00000000-00000000 : xhci-hcd
+    00000000-00000000 : 0000:01:00.1
+00000000-00000000 : PCI ECAM 0000 [bus 00-3f]
+00000000-00000000 : PCI Bus 0000:00
+  00000000-00000000 : amd_iommu
+00000000-00000000 : Reserved
+  00000000-00000000 : IOAPIC 0
+00000000-00000000 : IOAPIC 1
+00000000-00000000 : Reserved
+00000000-00000000 : pnp 00:00
+00000000-00000000 : AMDIF030:00
+  00000000-00000000 : AMDIF030:00 AMDIF030:00
+00000000-00000000 : HPET 0
+  00000000-00000000 : PNP0103:00
+00000000-00000000 : IFX0785:00
+  00000000-00000000 : IFX0785:00 IFX0785:00
+00000000-00000000 : Reserved
+00000000-00000000 : AMDI0030:00
+  00000000-00000000 : AMDI0030:00 AMDI0030:00
+00000000-00000000 : Reserved
+  00000000-00000000 : pnp 00:06
+00000000-00000000 : Reserved
+  00000000-00000000 : pnp 00:00
+00000000-00000000 : System RAM
+  00000000-00000000 : Kernel code
+  00000000-00000000 : Kernel rodata
+  00000000-00000000 : Kernel data
+  00000000-00000000 : Kernel bss
+00000000-00000000 : RAM buffer
+
+===== CLOCKSOURCE =====
+tsc hpet acpi_pm 
+tsc
+
+===== NET =====
+lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> 
+enp5s0f0         UP             e8:d8:d1:c5:92:fd <BROADCAST,MULTICAST,UP,LOWER_UP> 
+No data available
+enp5s0f0 e8:d8:d1:c5:92:fd drv=r8169
+lo 00:00:00:00:00:00 drv=
+driver: r8169
+version: 6.8.0-88-generic
+firmware-version: 
+expansion-rom-version: 
+bus-info: 0000:05:00.0
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: yes
+supports-priv-flags: no
+
+===== LSUSB =====
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 005 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 006 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 007 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=ehci-pci/1p, 480M
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/14p, 480M
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/8p, 10000M
+/:  Bus 004.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+/:  Bus 005.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 10000M
+/:  Bus 006.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/1p, 480M
+/:  Bus 007.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/1p, 10000M
+
+===== BLOCK =====
+NAME                        SIZE TYPE FSTYPE      PARTTYPENAME     MOUNTPOINT MODEL
+nvme0n1                   476.9G disk                                         KXG60ZNV512G KIOXIA
+├─nvme0n1p1                   1G part vfat        EFI System       /boot/efi  
+├─nvme0n1p2                   2G part ext4        Linux filesystem /boot      
+└─nvme0n1p3               473.9G part LVM2_member Linux filesystem            
+  └─ubuntu--vg-ubuntu--lv   100G lvm  ext4                         /          
+KXG60ZNV512G KIOXIA                     
+AGHA4101
+
+===== SERIAL =====
+cat: /proc/tty/driver/serial: Permission denied
+ttyS0 port=0x3F8 irq=4 type=0 iomem=0x0
+ttyS1 port=0x2F8 irq=3 type=0 iomem=0x0
+ttyS2 port=0x3E8 irq=4 type=0 iomem=0x0
+ttyS3 port=0x2E8 irq=3 type=0 iomem=0x0
+
+===== WATCHDOG_SPEAKER_MODS =====
+amdgpu              17137664  0
+amdxcp                 12288  1 amdgpu
+drm_exec               12288  1 amdgpu
+gpu_sched              61440  1 amdgpu
+drm_buddy              20480  1 amdgpu
+drm_suballoc_helper    16384  1 amdgpu
+drm_ttm_helper         12288  1 amdgpu
+ttm                   110592  2 amdgpu,drm_ttm_helper
+drm_display_helper    237568  1 amdgpu
+i2c_algo_bit           16384  1 amdgpu
+k10temp                16384  0
+ccp                   143360  4 kvm_amd
+i2c_piix4              32768  0
+nvme                   61440  3
+nvme_core             212992  4 nvme
+xhci_pci               24576  0
+r8169                 118784  0
+video                  77824  1 amdgpu
+nvme_auth              28672  1 nvme_core
+xhci_pci_renesas       20480  1 xhci_pci
+ls: cannot access '/dev/watchdog*': No such file or directory
+tpm0
+
+===== FB_DRM =====
+card0-DP-1 disconnected
+card0-DP-2 disconnected
+card0-DP-3 disconnected
+card0-HDMI-A-1 disconnected
+cat: /sys/class/graphics/fb0/virtual_size: No such file or directory
+cat: /sys/class/graphics/fb0/bits_per_pixel: No such file or directory
+
+===== EFI =====
+config_table
+efivars
+esrt
+fw_platform_size
+fw_vendor
+mok-variables
+runtime
+runtime-map
+systab
+64
+A69XVU1AC
+AbtStatus
+AdminAtPowerOnAuthPolicy
+AEDFactoryConfigFlags
+AfterPowerLoss
+AmdAcpiVar
+AMD_RAID
+AmdSecurityPatch
+ApSyncFlagNv
+AuthVarKeyDatabase
+B72460CE
+B7286D6C
+BiosDomainSystemPolicy
+BiosInstallDate
+BiosPowerOn
+BiosUpdateCmdSts
+BlockSidAuthSetup
+Boot00000004
+Boot00000005
+Boot0001
+Boot0002
+Boot0003
+Boot0004
+Boot0005
+Boot0006
+BootCurrent
+BootOrder
+BornOnDate
+BuildId
+CCG5
+certdb
+certdbv
+ClearSecurityOperation
+ConfigChangePrompt
+ConIn
+ConInDev
+ConOut
+ConOutBackup
+ConOutModify
+CpuPwrMgmt
+CurrentPolicy
+DashControl
+db
+dbDefault
+dbx
+dbxDefault
+DeviceGuardState
+DustFilterSetup
+EA43BE5C
+ErrOutModify
+ExpansionSlotConfig
+ExtendedDHCPTimeout
+ExUsbPortConfig
+ExUsbPortImplementation
+FactoryConfig
+FactoryConfigFlags
+FastBootStatus
+FirmwareUpdate
+FusionDriverSetup
+FwUpdateCmdSts
+GfxFactoryConfigFlags
+GfxInitSetup
+HddOptions
+HDDP
+HP_AggressivePolicy
+HpAtaFreezeLock
+HP_AudioAlert
+HpBiosAuditLogOptions
+HP_BiosUpdatePolicy
+HP_BootOptions
+HpCommonSetup
+HpCpr
+HpCpuFlags
+HP_DeviceOptions
+HpDiagsPorting
+HP_Disk0MapForUefiBootOrder
+HP_DriveLock
+HpEmmcDevicePresent
+HP_FlashTargetVersion
+HP_FwUpdate
+BOOT
+ubuntu
+
+===== DMESG_HEAD =====
+
+===== CMDLINE =====
+BOOT_IMAGE=/vmlinuz-6.8.0-88-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+Linux nix 6.8.0-88-generic #89-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 11 01:02:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux

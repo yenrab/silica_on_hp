@@ -1,0 +1,466 @@
+
+===== PCIE_LINKS =====
+0000:00:01.2 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:00:01.6 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:00:08.1 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:01:00.0 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:01:00.1 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:01:00.2 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:02:00.0 max=5.0 GT/s PCIe x1 cur=2.5 GT/s PCIe x0
+0000:02:01.0 max=5.0 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:02:02.0 max=5.0 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:02:03.0 max=5.0 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:02:04.0 max=5.0 GT/s PCIe x4 cur=2.5 GT/s PCIe x0
+0000:02:08.0 max=8.0 GT/s PCIe x2 cur=2.5 GT/s PCIe x0
+0000:02:09.0 max=8.0 GT/s PCIe x2 cur=2.5 GT/s PCIe x0
+0000:05:00.0 max=2.5 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:05:00.1 max=2.5 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:05:00.2 max=2.5 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:05:00.3 max=2.5 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:05:00.4 max=2.5 GT/s PCIe x1 cur=2.5 GT/s PCIe x1
+0000:0a:00.0 max=8.0 GT/s PCIe x4 cur=8.0 GT/s PCIe x4
+0000:0b:00.0 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:0b:00.1 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:0b:00.2 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:0b:00.3 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:0b:00.4 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+0000:0b:00.6 max=8.0 GT/s PCIe x16 cur=8.0 GT/s PCIe x16
+
+===== MSI =====
+0000:00:00.2 msi_vectors=1 mode=msi 
+0000:00:01.2 msi_vectors=1 mode=msi 
+0000:00:01.6 msi_vectors=1 mode=msi 
+0000:00:08.1 msi_vectors=1 mode=msi 
+0000:01:00.0 msi_vectors=8 mode=msix 
+0000:01:00.1 msi_vectors=1 mode=msi 
+0000:02:00.0 msi_vectors=1 mode=msi 
+0000:02:01.0 msi_vectors=1 mode=msi 
+0000:02:02.0 msi_vectors=1 mode=msi 
+0000:02:03.0 msi_vectors=1 mode=msi 
+0000:02:04.0 msi_vectors=1 mode=msi 
+0000:02:08.0 msi_vectors=1 mode=msi 
+0000:02:09.0 msi_vectors=1 mode=msi 
+0000:05:00.0 msi_vectors=1 mode=msix 
+0000:05:00.4 msi_vectors=1 mode=msi 
+0000:0a:00.0 msi_vectors=33 mode=msix 
+0000:0b:00.0 msi_vectors=1 mode=msix 
+0000:0b:00.1 msi_vectors=1 mode=msi 
+0000:0b:00.2 msi_vectors=2 mode=msix 
+0000:0b:00.3 msi_vectors=8 mode=msix 
+0000:0b:00.4 msi_vectors=8 mode=msix 
+0000:0b:00.6 msi_vectors=1 mode=msi 
+
+===== AHCI =====
+host0 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host1 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host2 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host3 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host4 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host5 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host6 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+host7 proc=ahci caps=ef36ff27 cap2=3c ver=10301 portcmd=4016 lpm=keep_firmware_settings
+ata1
+ata2
+ata3
+ata4
+ata5
+ata6
+ata7
+ata8
+link1 <unknown> limit=<unknown>
+link2 <unknown> limit=<unknown>
+link3 <unknown> limit=<unknown>
+link4 <unknown> limit=<unknown>
+link5 <unknown> limit=<unknown>
+link6 <unknown> limit=<unknown>
+link7 <unknown> limit=<unknown>
+link8 <unknown> limit=<unknown>
+
+===== USB_PORTS =====
+usb1 pci=0000:05:00.4 speed=480 maxchild=1 ver= 2.00
+usb2 pci=0000:01:00.0 speed=480 maxchild=14 ver= 2.00
+usb3 pci=0000:01:00.0 speed=10000 maxchild=8 ver= 3.10
+usb4 pci=0000:0b:00.3 speed=480 maxchild=4 ver= 2.00
+usb5 pci=0000:0b:00.3 speed=10000 maxchild=4 ver= 3.10
+usb6 pci=0000:0b:00.4 speed=480 maxchild=1 ver= 2.00
+usb7 pci=0000:0b:00.4 speed=10000 maxchild=1 ver= 3.10
+usb1-port1 connect_type=unknown loc=0x00000000
+usb2-port1 connect_type=hotplug loc=0x80000001
+usb2-port10 connect_type=not used loc=0x8000000a
+usb2-port11 connect_type=hotplug loc=0x8000000b
+usb2-port12 connect_type=hotplug loc=0x8000000c
+usb2-port13 connect_type=not used loc=0x8000000d
+usb2-port14 connect_type=not used loc=0x8000000e
+usb2-port2 connect_type=not used loc=0x80000002
+usb2-port3 connect_type=hotplug loc=0x80000003
+usb2-port4 connect_type=hotplug loc=0x80000004
+usb2-port5 connect_type=hotplug loc=0x80000005
+usb2-port6 connect_type=hotplug loc=0x80000006
+usb2-port7 connect_type=not used loc=0x80000007
+usb2-port8 connect_type=not used loc=0x80000008
+usb2-port9 connect_type=hardwired loc=0x80000009
+usb3-port1 connect_type=hotplug loc=0x80000001
+usb3-port2 connect_type=not used loc=0x80000002
+usb3-port3 connect_type=hotplug loc=0x80000003
+usb3-port4 connect_type=hotplug loc=0x80000004
+usb3-port5 connect_type=hotplug loc=0x80000005
+usb3-port6 connect_type=hotplug loc=0x80000006
+usb3-port7 connect_type=hardwired loc=0x80000007
+usb3-port8 connect_type=not used loc=0x80000008
+usb4-port1 connect_type=not used loc=0x80000011
+usb4-port2 connect_type=hotplug loc=0x80000012
+usb4-port3 connect_type=hotplug loc=0x80000013
+usb4-port4 connect_type=hotplug loc=0x80000014
+usb5-port1 connect_type=not used loc=0x80000011
+usb5-port2 connect_type=hotplug loc=0x80000012
+usb5-port3 connect_type=hotplug loc=0x80000013
+usb5-port4 connect_type=hotplug loc=0x80000014
+usb6-port1 connect_type=hotplug loc=0x80000021
+usb7-port1 connect_type=hotplug loc=0x80000021
+
+===== IOMMU =====
+4
+group 0: 0000:00:01.0 0000:00:01.2 0000:00:01.6 0000:01:00.0 0000:01:00.1 0000:01:00.2 0000:02:00.0 0000:02:01.0 0000:02:02.0 0000:02:03.0 0000:02:04.0 0000:02:08.0 0000:02:09.0 0000:05:00.0 0000:05:00.1 0000:05:00.2 0000:05:00.3 0000:05:00.4 0000:0a:00.0 
+group 1: 0000:00:08.0 0000:00:08.1 0000:0b:00.0 0000:0b:00.1 0000:0b:00.2 0000:0b:00.3 0000:0b:00.4 0000:0b:00.6 
+group 2: 0000:00:14.0 0000:00:14.3 
+group 3: 0000:00:18.0 0000:00:18.1 0000:00:18.2 0000:00:18.3 0000:00:18.4 0000:00:18.5 0000:00:18.6 0000:00:18.7 
+190b640f
+4f77ef22294ada:0
+
+===== I2C_SMBUS =====
+i2c-0
+i2c-1
+i2c-2
+i2c-3
+i2c-4
+i2c-5
+i2c-6
+i2c-0 AMDGPU DM i2c hw bus 0
+i2c-1 AMDGPU DM i2c hw bus 1
+i2c-2 AMDGPU DM i2c hw bus 2
+i2c-3 AMDGPU DM i2c hw bus 3
+i2c-4 AMDGPU DM aux hw bus 1
+i2c-5 AMDGPU DM aux hw bus 2
+i2c-6 AMDGPU DM aux hw bus 3
+
+===== ACPI_DEVS =====
+AMDI0030:00 hid=AMDI0030 status=15 path=\_SB_.GPIO
+AMDIF030:00 hid=AMDIF030 status=15 path=\_SB_.PTIO
+device:00 hid= status= path=\_SB_.PCI0.PEG0
+device:01 hid= status= path=\_SB_.PCI0.PEG0.PEGP
+device:02 hid= status= path=\_SB_.PCI0.GPP0
+device:03 hid= status= path=\_SB_.PCI0.GPP0.PEGP
+device:04 hid= status= path=\_SB_.PCI0.GPP0.NIC_
+device:05 hid= status= path=\_SB_.PCI0.GPP1
+device:06 hid= status= path=\_SB_.PCI0.GPP1.PT00
+device:07 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB
+device:08 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS01
+device:09 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS02
+device:0a hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS03
+device:0b hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS04
+device:0c hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS05
+device:0d hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS06
+device:0e hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS07
+device:0f hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.SS08
+device:10 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS01
+device:11 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS02
+device:12 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS03
+device:13 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS04
+device:14 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS05
+device:15 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS06
+device:16 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS07
+device:17 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS08
+device:18 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS09
+device:19 hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS0A
+device:1a hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS0B
+device:1b hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS0C
+device:1c hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS0D
+device:1d hid= status= path=\_SB_.PCI0.GPP1.PT00.RHUB.HS0E
+device:1e hid= status= path=\_SB_.PCI0.GPP1.PT02
+device:1f hid= status= path=\_SB_.PCI0.GPP1.PT02.PT20
+device:20 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT20.PXSX
+device:21 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT21
+device:22 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT21.PXSX
+device:23 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT22
+device:24 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT22.PXSX
+device:25 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT23
+device:26 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT23.PXSX
+device:27 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT24
+device:28 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT25
+device:29 hid= status= path=\_SB_.PCI0.GPP1.PT02.PT25.PXSX
+device:2a hid= status= path=\_SB_.PCI0.GPP1.PT02.PT26
+device:2b hid= status= path=\_SB_.PCI0.GPP1.PT02.PT26.PXSX
+device:2c hid= status= path=\_SB_.PCI0.GPP1.PT02.PT27
+device:2d hid= status= path=\_SB_.PCI0.GPP1.PT02.PT27.PXSX
+device:2e hid= status= path=\_SB_.PCI0.GPP2
+device:2f hid= status= path=\_SB_.PCI0.GPP3
+device:30 hid= status= path=\_SB_.PCI0.GPP4
+device:31 hid= status= path=\_SB_.PCI0.GPP5
+device:32 hid= status= path=\_SB_.PCI0.GPP6
+device:33 hid= status= path=\_SB_.PCI0.GP17
+device:34 hid= status= path=\_SB_.PCI0.GP17.GFX0.LCD_
+device:35 hid= status= path=\_SB_.PCI0.GP17.PSP_
+device:36 hid= status= path=\_SB_.PCI0.GP17.XHC0
+device:37 hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB
+device:38 hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.HS01
+device:39 hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.HS02
+device:3a hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.HS03
+device:3b hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.HS04
+device:3c hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.SS01
+device:3d hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.SS02
+device:3e hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.SS03
+device:3f hid= status= path=\_SB_.PCI0.GP17.XHC0.RHUB.SS04
+device:40 hid= status= path=\_SB_.PCI0.GP17.XHC1
+device:41 hid= status= path=\_SB_.PCI0.GP17.XHC1.RHUB
+device:42 hid= status= path=\_SB_.PCI0.GP17.XHC1.RHUB.HS01
+device:43 hid= status= path=\_SB_.PCI0.GP17.XHC1.RHUB.SS01
+device:44 hid= status= path=\_SB_.PCI0.GP17.AZAL
+device:45 hid= status= path=\_SB_.PCI0.GP18
+device:46 hid= status= path=\_SB_.PCI0.GP18.SATA
+device:47 hid= status= path=\_SB_.PCI0.GP18.SATA.PRT0
+device:48 hid= status= path=\_SB_.PCI0.GP18.SATA.PRT1
+device:49 hid= status= path=\_SB_.PCI0.GP18.SATA.PRT2
+device:4a hid= status= path=\_SB_.PCI0.GP18.SATA.PRT3
+device:4b hid= status= path=\_SB_.PCI0.GP18.SATA.PRT4
+device:4c hid= status= path=\_SB_.PCI0.GP18.SATA.PRT5
+device:4d hid= status= path=\_SB_.PCI0.SMBS
+device:4e hid= status= path=\_SB_.PCI0.LPCB
+device:4f hid= status= path=\_SB_.UBTC.CR01
+HPIC000C:00 hid=HPIC000C status=15 path=\_SB_.FDAD
+HPQ8002:00 hid=HPQ8002 status= path=\_SB_.PCI0.LPCB.PS2K
+IFX0785:00 hid=IFX0785 status=15 path=\_SB_.TPM_
+LNXCPU:00 hid=LNXCPU status= path=\_PR_.C000
+LNXCPU:01 hid=LNXCPU status= path=\_PR_.C001
+LNXCPU:02 hid=LNXCPU status= path=\_PR_.C002
+LNXCPU:03 hid=LNXCPU status= path=\_PR_.C003
+LNXCPU:04 hid=LNXCPU status= path=\_PR_.C004
+LNXCPU:05 hid=LNXCPU status= path=\_PR_.C005
+LNXCPU:06 hid=LNXCPU status= path=\_PR_.C006
+LNXCPU:07 hid=LNXCPU status= path=\_PR_.C007
+LNXCPU:08 hid=LNXCPU status= path=\_PR_.C008
+LNXCPU:09 hid=LNXCPU status= path=\_PR_.C009
+LNXCPU:0a hid=LNXCPU status= path=\_PR_.C00A
+LNXCPU:0b hid=LNXCPU status= path=\_PR_.C00B
+LNXCPU:0c hid=LNXCPU status= path=\_PR_.C00C
+LNXCPU:0d hid=LNXCPU status= path=\_PR_.C00D
+LNXCPU:0e hid=LNXCPU status= path=\_PR_.C00E
+LNXCPU:0f hid=LNXCPU status= path=\_PR_.C00F
+LNXCPU:10 hid=LNXCPU status= path=\_PR_.C010
+LNXCPU:11 hid=LNXCPU status= path=\_PR_.C011
+LNXCPU:12 hid=LNXCPU status= path=\_PR_.C012
+LNXCPU:13 hid=LNXCPU status= path=\_PR_.C013
+LNXCPU:14 hid=LNXCPU status= path=\_PR_.C014
+LNXCPU:15 hid=LNXCPU status= path=\_PR_.C015
+LNXCPU:16 hid=LNXCPU status= path=\_PR_.C016
+LNXCPU:17 hid=LNXCPU status= path=\_PR_.C017
+LNXCPU:18 hid=LNXCPU status= path=\_PR_.C018
+LNXCPU:19 hid=LNXCPU status= path=\_PR_.C019
+LNXCPU:1a hid=LNXCPU status= path=\_PR_.C01A
+LNXCPU:1b hid=LNXCPU status= path=\_PR_.C01B
+LNXCPU:1c hid=LNXCPU status= path=\_PR_.C01C
+LNXCPU:1d hid=LNXCPU status= path=\_PR_.C01D
+LNXCPU:1e hid=LNXCPU status= path=\_PR_.C01E
+LNXCPU:1f hid=LNXCPU status= path=\_PR_.C01F
+LNXPOWER:00 hid=LNXPOWER status=1 path=\_SB_.P0ST
+LNXPWRBN:00 hid=LNXPWRBN status= path=
+LNXSYBUS:00 hid=LNXSYBUS status= path=\_SB_
+
+===== PNP =====
+00:00 id=PNP0c02  :: state = active;mem 0xfec00000-0xfec00fff;mem 0xfee00000-0xfee00fff;mem 0xfec20000-0xfec20fff;
+00:01 id=PNP0b00  :: state = active;io 0x70-0x71;
+00:02 id=PNP0c02  :: state = active;io 0x10-0x1f;io 0x72-0x73;io 0x80-0x80;io 0xb0-0xb1;io 0x92-0x92;io 0x400-0x4cf;io 0x4d0-0x4d1;io 0x4d6-0x4d6;io 0x680-0x6ff;io 0x77a-0x77a;io 0xc00-0xc01;io 0xc14-0xc14;io 0xc50-0xc52;io 0xc6c-0xc6c;io 0xc6f-0xc6f;io 0xcd0-0xcdb;
+00:03 id=PNP0c01  :: state = active;mem 0xe0000-0xfffff;
+00:04 id=HPQ8002 PNP0303  :: state = active;io 0x60-0x60;io 0x64-0x64;irq 1;
+00:05 id=PNP0f03 SYN0100 SYN0002 PNP0f13  :: state = active;irq 12;
+00:06 id=PNP0c02  :: state = active;io 0x200-0x23f;mem 0xfedb1000-0xfedb1fff;
+
+===== PLATFORM =====
+acpi-cpufreq
+alarmtimer.0.auto
+AMDI0030:00
+AMDIF030:00
+efivars.0
+Fixed MDIO bus.0
+HPIC000C:00
+hp-wmi
+i8042
+IFX0785:00
+intel_rapl_msr.0
+kgdboc
+microcode
+pcspkr
+PNP0103:00
+PNP0800:00
+PNP0C04:00
+PNP0C09:00
+PNP0C0C:00
+PNP0C14:00
+PNP0C14:01
+PNP0C14:02
+reg-dummy
+regulatory.0
+rtc-efi.0
+serial8250
+USBC000:00
+
+===== HWMON =====
+hwmon0 acpitz temp1_input 
+hwmon1 ucsi_source_psy_USBC000:001 curr1_input in0_input 
+hwmon2 nvme temp1_input temp1_label temp2_input temp2_label 
+hwmon3 k10temp temp1_input temp1_label 
+hwmon4 hp 
+hwmon5 amdgpu freq1_input freq1_label in0_input in0_label in1_input in1_label power1_label temp1_input temp1_label 
+
+===== GPIO_RTC_WAKE =====
+export
+gpiochip512
+gpiochip768
+unexport
+rtc_cmos 00:01
+Device	S-state	  Status   Sysfs node
+PEG0	  S4	*disabled
+GPP0	  S5	*disabled
+NIC	  S5	*disabled
+GPP1	  S4	*enabled   pci:0000:00:01.2
+PT00	  S4	*enabled   pci:0000:01:00.0
+PT02	  S4	*enabled   pci:0000:01:00.2
+PT20	  S4	*enabled   pci:0000:02:00.0
+PXSX	  S4	*disabled
+PT21	  S4	*enabled   pci:0000:02:01.0
+PXSX	  S4	*disabled
+PT22	  S4	*enabled   pci:0000:02:02.0
+PXSX	  S4	*disabled  pci:0000:05:00.0
+PT23	  S4	*enabled   pci:0000:02:03.0
+PXSX	  S4	*disabled
+PT25	  S4	*disabled
+PXSX	  S4	*disabled
+PT26	  S4	*disabled
+PXSX	  S4	*disabled
+PT27	  S4	*disabled
+PXSX	  S4	*disabled
+GPP2	  S4	*disabled
+GPP3	  S4	*disabled
+XHC0	  S3	*enabled   pci:0000:0b:00.3
+XHC1	  S3	*enabled   pci:0000:0b:00.4
+PS2K	  S3	*enabled   pnp:00:04
+		*disabled  serio:serio0
+PS2M	  S3	*disabled  pnp:00:05
+freeze mem
+s2idle [deep]
+	Supported link modes:   10baseT/Half 10baseT/Full
+	Advertised link modes:  10baseT/Half 10baseT/Full
+	Link partner advertised link modes:  10baseT/Half 10baseT/Full
+	Speed: 1000Mb/s
+	Duplex: Full
+
+===== NVME =====
+model: KXG60ZNV512G KIOXIA                     
+serial: 30QF72EDFGNL        
+firmware_rev: AGHA4101
+cntlid: 0
+transport: pcie
+numa_node: -1
+queue_count: 33
+sqsize: 1023
+512
+512
+1000215216
+
+===== SOUND =====
+ 0 [Generic        ]: HDA-Intel - HD-Audio Generic
+                      HD-Audio Generic at 0xf0588000 irq 107
+ 1 [Generic_1      ]: HDA-Intel - HD-Audio Generic
+                      HD-Audio Generic at 0xf0580000 irq 108
+Codec: ATI R6xx HDMI
+Vendor Id: 0x1002aa01
+Subsystem Id: 0x00aa0100
+Codec: Conexant CX20632
+Vendor Id: 0x14f15098
+Subsystem Id: 0x103c8617
+
+===== INPUT =====
+N: Name="Power Button"
+P: Phys=PNP0C0C/button/input0
+N: Name="Power Button"
+P: Phys=LNXPWRBN/button/input0
+N: Name="Video Bus"
+P: Phys=LNXVIDEO/video/input0
+N: Name="HP WMI hotkeys"
+P: Phys=wmi/input0
+N: Name="HD-Audio Generic HDMI/DP,pcm=3"
+P: Phys=ALSA
+N: Name="HD-Audio Generic HDMI/DP,pcm=7"
+P: Phys=ALSA
+N: Name="HD-Audio Generic HDMI/DP,pcm=8"
+P: Phys=ALSA
+N: Name="HD-Audio Generic Mic"
+P: Phys=ALSA
+N: Name="HD-Audio Generic Line"
+P: Phys=ALSA
+N: Name="HD-Audio Generic Line Out"
+P: Phys=ALSA
+N: Name="HD-Audio Generic Front Headphone"
+P: Phys=ALSA
+
+===== INTERRUPTS_NAMES =====
+0: IR-IO-APIC 2-edge timer
+1: IR-IO-APIC 1-edge i8042
+7: IR-IO-APIC 7-fasteoi pinctrl_amd
+8: IR-IO-APIC 8-edge rtc0
+9: IR-IO-APIC 9-fasteoi acpi
+12: IR-IO-APIC 12-edge i8042
+26: PCI-MSI-0000:00:00.2 0-edge AMD-Vi
+27: 0-edge PCIe PME
+28: 0-edge PCIe PME
+29: 0-edge PCIe PME
+40: IR-PCI-MSI-0000:05:00.4 0-edge ehci_hcd:usb1
+41: IR-PCI-MSIX-0000:05:00.0 0-edge enp5s0f0
+42: IR-PCI-MSI-0000:01:00.1 0-edge ahci[0000:01:00.1]
+43: IR-PCI-MSIX-0000:01:00.0 0-edge xhci_hcd
+52: IR-PCI-MSIX-0000:0b:00.3 0-edge xhci_hcd
+61: IR-PCI-MSIX-0000:0b:00.4 0-edge xhci_hcd
+70: IR-PCI-MSIX-0000:0a:00.0 0-edge nvme0q0
+71: IR-PCI-MSIX-0000:0a:00.0 1-edge nvme0q1
+72: IR-PCI-MSIX-0000:0a:00.0 2-edge nvme0q2
+73: IR-PCI-MSIX-0000:0a:00.0 3-edge nvme0q3
+74: IR-PCI-MSIX-0000:0a:00.0 4-edge nvme0q4
+75: IR-PCI-MSIX-0000:0a:00.0 5-edge nvme0q5
+76: IR-PCI-MSIX-0000:0a:00.0 6-edge nvme0q6
+77: IR-PCI-MSIX-0000:0a:00.0 7-edge nvme0q7
+78: IR-PCI-MSIX-0000:0a:00.0 8-edge nvme0q8
+79: IR-PCI-MSIX-0000:0a:00.0 9-edge nvme0q9
+80: IR-PCI-MSIX-0000:0a:00.0 10-edge nvme0q10
+81: IR-PCI-MSIX-0000:0a:00.0 11-edge nvme0q11
+82: IR-PCI-MSIX-0000:0a:00.0 12-edge nvme0q12
+83: IR-PCI-MSIX-0000:0a:00.0 13-edge nvme0q13
+84: IR-PCI-MSIX-0000:0a:00.0 14-edge nvme0q14
+85: IR-PCI-MSIX-0000:0a:00.0 15-edge nvme0q15
+86: IR-PCI-MSIX-0000:0a:00.0 16-edge nvme0q16
+87: IR-PCI-MSIX-0000:0a:00.0 17-edge nvme0q17
+88: IR-PCI-MSIX-0000:0a:00.0 18-edge nvme0q18
+89: IR-PCI-MSIX-0000:0a:00.0 19-edge nvme0q19
+90: IR-PCI-MSIX-0000:0a:00.0 20-edge nvme0q20
+91: IR-PCI-MSIX-0000:0a:00.0 21-edge nvme0q21
+92: IR-PCI-MSIX-0000:0a:00.0 22-edge nvme0q22
+93: IR-PCI-MSIX-0000:0a:00.0 23-edge nvme0q23
+94: IR-PCI-MSIX-0000:0a:00.0 24-edge nvme0q24
+95: IR-PCI-MSIX-0000:0a:00.0 25-edge nvme0q25
+96: IR-PCI-MSIX-0000:0a:00.0 26-edge nvme0q26
+97: IR-PCI-MSIX-0000:0a:00.0 27-edge nvme0q27
+98: IR-PCI-MSIX-0000:0a:00.0 28-edge nvme0q28
+99: IR-PCI-MSIX-0000:0a:00.0 29-edge nvme0q29
+100: IR-PCI-MSIX-0000:0a:00.0 30-edge nvme0q30
+101: IR-PCI-MSIX-0000:0a:00.0 31-edge nvme0q31
+102: IR-PCI-MSIX-0000:0a:00.0 32-edge nvme0q32
+104: IR-PCI-MSIX-0000:0b:00.2 0-edge psp-1
+105: IR-PCI-MSIX-0000:0b:00.2 1-edge ccp-1
+107: IR-PCI-MSI-0000:0b:00.1 0-edge snd_hda_intel:card0
+108: IR-PCI-MSI-0000:0b:00.6 0-edge snd_hda_intel:card1
+109: IR-PCI-MSIX-0000:0b:00.0 0-edge amdgpu
+
+===== TPM =====
+2
+
+===== DMI_MORE =====
+dmi:bvnHP:bvrR06Ver.02.20.00:bd04/11/2024:br20.0:efr8.9:svnHP:pnHPEliteDesk705G5SFF:pvrSBKPF:rvnHP:rn8617:rvrKBCVersion08.09.20:cvnHP:ct3:cvr:sku6JH69AV:
+      1 0       1 1       1 2       1 3       1 4       3 7      34 8       5 9       1 10       1 11       1 13       1 16       4 17       1 19       2 20       1 24       1 27       1 32       2 41       1 43       1 127       1 207 
